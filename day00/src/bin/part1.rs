@@ -13,7 +13,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_work() {
+    fn it_works() {
         let input = include_str!("./inputs/p1/examplein.txt");
         let output = solution(input);
         let expected = include_str!("./inputs/p1/exampleout.txt");
